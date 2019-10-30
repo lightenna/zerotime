@@ -19,7 +19,7 @@ except NameError:
 def clock(device, deviceId, seconds):
     for _ in xrange(seconds):
         now = datetime.now()
-        hour = (now.hour + 1) % 24
+        hour = (now.hour + utcplus) % 24
         minute = now.minute
         second = now.second
         micro = now.microsecond
