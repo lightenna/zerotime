@@ -7,7 +7,7 @@ from datetime import datetime
 # constants
 base = 100 # number of frames per second
 nrefresh = 0.4 # refresh n times per frame
-utcplus = +1 # timezone/bst adjustment
+utcplus = +0 # timezone/bst adjustment
 # make forwards compatible with Python 3
 try:
     # Python 2
